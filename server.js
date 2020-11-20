@@ -6,20 +6,20 @@ const express = require("express");
 const app = express();
 
 // Sets an initial port for our server
-const PORT = process.env.PORT || 3000
+const PORT = process.env.PORT || 3000;
 
 // Sets up the Express app to handle data parsing
-app.use(express.urlencoded ({extended: true}));
+app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
+app.use(express.static('public'))
 
 // // Router
 // // This points our server to a series of "route" files.
 // // These routes give our server a "map" of how to respond when users visit or request data from various URLs.
 require("./routes/apiRoutes")(app);
 require("./routes/htmlRoutes")(app);
-app.use(express.static('public'))
 
 
 // Listener
 // This code "starts" our server.
-app.listen(PORT, () => console.log(`Server listening on PORT: ${PORT}`));
+app.listen(PORT, () => console.log('app listening on PORT:' + PORT))
