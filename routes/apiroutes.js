@@ -1,5 +1,6 @@
 // Dependencies
 const db = require('../db/db.json');
+const fs = require("fs");
 // Used to give each new note a unique id when it's saved
 const uuidv1 = require("uuidv1");
 
@@ -21,9 +22,14 @@ module.exports = (app) => {
 // API DELETE rquest to delete notes
 module.exports = (app) => {
     app.delete("api/notes/:id", (req, res) => {
-        db.removeNote(req.params.id)
-        .then(() => res.send(200))
-        .catch((err) =>
-        console.log(err));
-    })
+        const noteId = req.params.id;
+
+        for(var i = 0; i <db.length; i++){
+            if(db[i].id === noteId) {
+                let objIndex = db.indexOf(db);
+                db.splice(objIndex, 1);
+            }
+            res.send(db);
+        }
+    });
 };
