@@ -27,7 +27,7 @@ SO THAT I can organize my thoughts and keep track of tasks I need to complete
 * Postman
 
 ## Links and Screenshot
-* GitHub Repository:
+* GitHub Repository: https://github.com/MeganCarnaghi/Note-Taker.git
 * Deployed Application:
 
 
