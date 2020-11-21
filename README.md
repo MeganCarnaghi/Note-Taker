@@ -29,7 +29,7 @@ SO THAT I can organize my thoughts and keep track of tasks I need to complete
 
 ## Links and Screenshot
 * GitHub Repository: https://github.com/MeganCarnaghi/Note-Taker.git
-* Deployed Application:
+* Deployed Application: https://tranquil-cliffs-79399.herokuapp.com/
 
 ![index.html screenshot](public/screenshots/index.html-screenshot.jpg)  
 
