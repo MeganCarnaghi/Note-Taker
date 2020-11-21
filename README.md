@@ -25,6 +25,7 @@ SO THAT I can organize my thoughts and keep track of tasks I need to complete
 * Node.js
 * Express
 * Postman
+* Heroku
 
 ## Links and Screenshot
 * GitHub Repository: https://github.com/MeganCarnaghi/Note-Taker.git
