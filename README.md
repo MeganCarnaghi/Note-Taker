@@ -31,6 +31,10 @@ SO THAT I can organize my thoughts and keep track of tasks I need to complete
 * GitHub Repository: https://github.com/MeganCarnaghi/Note-Taker.git
 * Deployed Application:
 
+![index.html screenshot](public/screenshots/index.html-screenshot.jpg)  
+
+![notes.html screenshot](public/notes.html)  
+
 
 © Megan Carnaghi, Michigan State University Full-Stack Web Development Bootcamp
 
