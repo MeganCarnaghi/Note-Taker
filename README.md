@@ -33,7 +33,7 @@ SO THAT I can organize my thoughts and keep track of tasks I need to complete
 
 ![index.html screenshot](public/screenshots/index.html-screenshot.jpg)  
 
-![notes.html screenshot](public/notes.html)  
+![notes.html screenshot](public/screenshots/notes.html-screenshot.jpg)  
 
 
 © Megan Carnaghi, Michigan State University Full-Stack Web Development Bootcamp
