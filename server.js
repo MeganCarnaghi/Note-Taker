@@ -6,7 +6,7 @@ const express = require("express");
 const app = express();
 
 // Sets an initial port for our server
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 8080;
 
 // Sets up the Express app to handle data parsing
 app.use(express.urlencoded({ extended: true }));
@@ -22,4 +22,4 @@ require("./routes/htmlRoutes")(app);
 
 // Listener
 // This code "starts" our server.
-app.listen(PORT, () => console.log('app listening on PORT:' + PORT))
+app.listen(PORT, () => console.log(`app listening on PORT: ${PORT}`));
