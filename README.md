@@ -6,6 +6,7 @@
 * [Business context](#business-context)
 * [Technologies Used](#technologies-used)
 * [Links and Screenshot](#links-and-screenshot)
+* [License](#license)
 
 ## Description
 This is an application that can be used to write, save, and delete notes. It has an Express backend and can retrieve and save note data from a JSON file.
@@ -33,5 +34,8 @@ SO THAT I can organize my thoughts and keep track of tasks I need to complete
 
 ![index.html screenshot](public/screenshots/index.html-screenshot.jpg)  
 
-![notes.html screenshot](public/screenshots/notes.html-screenshot.jpg)  
+![notes.html screenshot](public/screenshots/notes.html-screenshot.jpg)
+
+## License
+![license](https://img.shields.io/badge/License-MIT-success)
 
